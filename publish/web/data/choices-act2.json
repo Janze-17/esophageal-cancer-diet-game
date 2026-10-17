@@ -1,0 +1,210 @@
+{
+  "_note": "Act2 lunch canteen conveyor choices. Low-fidelity values only; real scoring can replace these later.",
+  "_todo": [
+    "Keep ids in English or pinyin.",
+    "riskTags are recorded only; no real risk calculation is done in Act2 yet.",
+    "tendencyScores use object format converted from G+2 / K+2 style notes."
+  ],
+  "actId": "act2",
+  "steps": [
+    {
+      "stepId": "act2_lunchPlateChoice",
+      "interactionType": "drag_lunch_foods_to_plate",
+      "choiceLimit": 4
+    },
+    {
+      "stepId": "act2_lunchPlaceChoice",
+      "interactionType": "click_lunch_place",
+      "choiceLimit": 1
+    },
+    {
+      "stepId": "act2_lunchEatingResult",
+      "interactionType": "click_chopsticks_to_eat_plate",
+      "clicksPerSlot": 3
+    }
+  ],
+  "choices": [
+    {
+      "id": "act2_food_qingjiao_larou",
+      "name": "青椒炒腊肉",
+      "label": "青椒炒腊肉",
+      "category": "腌制饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "薄片腊肉被炒得微微卷边，油脂裹住青椒的清香和咸香。入口有一点韧劲，越嚼越能尝到烟熏和腌制后的浓郁味道。",
+      "riskTags": ["腌制饮食"],
+      "tendencyScores": {
+        "G": 2,
+        "K": 2,
+        "V": 1
+      }
+    },
+    {
+      "id": "act2_food_koushuiji",
+      "name": "口水鸡",
+      "label": "口水鸡",
+      "category": "辛辣饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "鸡肉被红油和花椒香气包住，表面亮亮的，入口先是凉爽滑嫩，随后辣味和麻感慢慢铺开。",
+      "riskTags": ["辛辣饮食"],
+      "tendencyScores": {
+        "V": 2,
+        "K": 2
+      }
+    },
+    {
+      "id": "act2_food_zhaxiao_rouwan",
+      "name": "炸小肉丸",
+      "label": "炸小肉丸",
+      "category": "油炸饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "小肉丸外壳炸得金黄，夹起来时还有一点酥脆感。咬开后里面紧实多汁，油香很明显，很容易一颗接一颗吃下去。",
+      "riskTags": ["油炸饮食"],
+      "tendencyScores": {
+        "K": 3,
+        "V": 1
+      }
+    },
+    {
+      "id": "act2_food_huobao_youyu",
+      "name": "火爆鱿鱼",
+      "label": "火爆鱿鱼",
+      "category": "辛辣饮食 + 高盐饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "鱿鱼卷边后带着弹性，辣椒和酱汁挂在表面，香气很冲。咀嚼时又韧又鲜，咸辣味会很快占满口腔。",
+      "riskTags": ["辛辣饮食", "高盐饮食"],
+      "tendencyScores": {
+        "V": 2,
+        "G": 2,
+        "K": 2
+      }
+    },
+    {
+      "id": "act2_food_jiang_niurou",
+      "name": "酱牛肉片",
+      "label": "酱牛肉片",
+      "category": "高盐饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "牛肉切成薄片，纹理清楚，酱色渗进肉里。入口紧实有嚼劲，咸香和卤料味比较重，适合配着米饭慢慢吃。",
+      "riskTags": ["高盐饮食"],
+      "tendencyScores": {
+        "V": 1,
+        "C": 2,
+        "G": 2
+      }
+    },
+    {
+      "id": "act2_food_xiaren_caixin",
+      "name": "虾仁菜心",
+      "label": "虾仁菜心",
+      "category": "无",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "虾仁颜色透亮，菜心保持着清脆的绿色。入口是柔软和爽脆交替的口感，味道清淡，能把午餐从重口味里拉回来一点。",
+      "riskTags": [],
+      "tendencyScores": {
+        "L": 3,
+        "C": 3,
+        "A": 3
+      }
+    },
+    {
+      "id": "act2_food_shaguo_zhou",
+      "name": "砂锅粥",
+      "label": "砂锅粥",
+      "category": "热烫饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "粥面还冒着细小热气，米粒被煮得很软。入口顺滑温和，但刚端上来时温度偏高，需要稍微放一放再吃。",
+      "riskTags": ["热烫饮食"],
+      "tendencyScores": {
+        "C": 3,
+        "V": 1,
+        "A": 1
+      }
+    },
+    {
+      "id": "act2_food_hanbao_zhaji",
+      "name": "汉堡炸鸡",
+      "label": "汉堡炸鸡",
+      "category": "油炸饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "炸鸡外皮酥脆，汉堡夹着酱汁和肉排，拿起来很有分量。第一口满足感很强，油脂和炸物香气也很明显。",
+      "riskTags": ["油炸饮食"],
+      "tendencyScores": {
+        "K": 3,
+        "V": 1
+      }
+    },
+    {
+      "id": "act2_food_paocai_niurou_xinlamian",
+      "name": "泡菜牛肉辛拉面",
+      "label": "泡菜牛肉辛拉面",
+      "category": "腌制饮食 + 辛辣饮食",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "红色汤汁包住面条，泡菜的酸味和辣味一起冒上来。牛肉片藏在面里，趁热吃很香，但汤底的刺激感也更直接。",
+      "riskTags": ["腌制饮食", "辛辣饮食"],
+      "tendencyScores": {
+        "V": 2,
+        "G": 3
+      }
+    },
+    {
+      "id": "act2_food_baimifan",
+      "name": "白米饭",
+      "label": "白米饭",
+      "category": "无",
+      "description": "低保真占位描述，后续再替换正式文案。",
+      "hoverText": "米饭颗粒分明，热气很轻，味道干净朴素。它本身不抢味道，能把旁边重口味的菜稍微垫得温和一点。",
+      "riskTags": [],
+      "tendencyScores": {
+        "L": 2,
+        "C": 2,
+        "A": 1
+      }
+    }
+  ],
+  "lunchPlaces": [
+    {
+      "id": "act2_place_canteen_table",
+      "name": "和朋友一起聚餐",
+      "label": "和朋友一起聚餐",
+      "eatingMode": "无",
+      "description": "低保真占位描述，后续替换正式文案。",
+      "riskTags": ["快速进食"],
+      "tendencyScores": {
+        "O": 2
+      }
+    },
+    {
+      "id": "act2_place_coworkers",
+      "name": "食堂和同事吃",
+      "label": "食堂和同事吃",
+      "eatingMode": "无",
+      "description": "低保真占位描述，后续替换正式文案。",
+      "riskTags": [],
+      "tendencyScores": {
+        "O": 2
+      }
+    },
+    {
+      "id": "act2_place_park_bench",
+      "name": "公园长椅上",
+      "label": "公园长椅上",
+      "eatingMode": "无",
+      "description": "低保真占位描述，后续替换正式文案。",
+      "riskTags": [],
+      "tendencyScores": {
+        "O": 3
+      }
+    },
+    {
+      "id": "act2_place_office_desk",
+      "name": "食堂一人食",
+      "label": "食堂一人食",
+      "eatingMode": "独自进食",
+      "description": "低保真占位描述，后续替换正式文案。",
+      "riskTags": ["不规律进食"],
+      "tendencyScores": {
+        "O": 1
+      }
+    }
+  ]
+}
