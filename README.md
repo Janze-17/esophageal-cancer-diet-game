@@ -34,13 +34,6 @@
 
 通过游戏化叙事与参与式交互，让健康知识不再只是被动接收的信息，而成为一次主动探索与自我观察的过程。
 
-## Technology / 技术实现
-
-- **HTML5 / CSS3** — 页面结构、视觉界面与动画
-- **JavaScript** — 游戏逻辑与交互控制
-- **JSON** — 游戏数据与配置
-- **GitHub Pages** — 在线部署与访问
-
 
 ## 游戏截图
 
@@ -78,6 +71,15 @@
 **[What's Your Diet Planet? — 开始游戏](https://janze-17.github.io/esophageal-cancer-diet-game/)**
 
 推荐使用 Chrome 或 Edge 桌面浏览器体验。
+
+---
+
+## Technology / 技术实现
+
+- **HTML5 / CSS3** — 页面结构、视觉界面与动画
+- **JavaScript** — 游戏逻辑与交互控制
+- **JSON** — 游戏数据与配置
+- **GitHub Pages** — 在线部署与访问
 
 ---
 
