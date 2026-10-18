@@ -41,6 +41,38 @@
 - **JSON** — 游戏数据与配置
 - **GitHub Pages** — 在线部署与访问
 
+
+## 游戏截图
+
+<p align="center">
+  <img src="Screenshots/1.png" width="85%" alt="游戏主视觉">
+</p>
+<p align="center"><sub>01 / 游戏主视觉 · COVER</sub></p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Screenshots/2.png" width="100%" alt="食物选择">
+      <br><sub>02 / 食物选择 · FOOD SELECTION</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="Screenshots/3.png" width="100%" alt="游戏交互一">
+      <br><sub>03 / 游戏交互 · GAMEPLAY 01</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Screenshots/4.png" width="100%" alt="游戏交互二">
+      <br><sub>04 / 游戏交互 · GAMEPLAY 02</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="Screenshots/5.png" width="100%" alt="游戏交互三">
+      <br><sub>05 / 游戏交互 · GAMEPLAY 03</sub>
+    </td>
+  </tr>
+</table>
+
+
 ## Play Online / 在线体验
 
 **[What's Your Diet Planet? — 开始游戏](https://janze-17.github.io/esophageal-cancer-diet-game/)**
